@@ -108,21 +108,21 @@ jupyter notebook Final_Assignment.ipynb
 ## 💼 Business Applications
 
 The models can be used to:
--Automate loan approval decisions
--Adjust interest rates based on risk
--Flag high-risk applications for manual review
--Optimize collection strategies for at-risk loans
+- Automate loan approval decisions
+- Adjust interest rates based on risk
+- Flag high-risk applications for manual review
+- Optimize collection strategies for at-risk loans
 
 ## ⚠️ Limitations & Future Work
 ### Current Challenges
--Poor performance on extremely rare classes (<0.5% of data)
--High false positive rates for some categories
+- Poor performance on extremely rare classes (<0.5% of data)
+- High false positive rates for some categories
 
 ### Improvement Opportunities
--Experiment with cost-sensitive learning
--Test ensemble approaches (XGBoost + Logistic Regression)
--Incorporate external economic indicators
--Develop separate models for different loan segments
+- Experiment with cost-sensitive learning
+- Test ensemble approaches (XGBoost + Logistic Regression)
+- Incorporate external economic indicators
+- Develop separate models for different loan segments
 
 
 
