@@ -94,30 +94,23 @@ cd loan-default-prediction
 
 ### Usage
 1. Place your dataset in the project directory
-
 2. Run the Jupyter notebook:
 
 
 ipynb
 ## 🛠️ Key Functions
-remove_90_more_null(): Drops columns with excessive nulls
-
-skew_less_2_mean(): Handles outliers in low-skew features
-
-high_c_encoding(): Frequency encoding for high-cardinality categoricals
-
-impute_for_float(): Advanced imputation for skewed numeric features
+-remove_90_more_null(): Drops columns with excessive nulls
+-skew_less_2_mean(): Handles outliers in low-skew features
+-high_c_encoding(): Frequency encoding for high-cardinality categoricals
+-impute_for_float(): Advanced imputation for skewed numeric features
 
 ## 💼 Business Applications
+
 The models can be used to:
-
-Automate loan approval decisions
-
-Adjust interest rates based on risk
-
-Flag high-risk applications for manual review
-
-Optimize collection strategies for at-risk loans
+-Automate loan approval decisions
+-Adjust interest rates based on risk
+-Flag high-risk applications for manual review
+-Optimize collection strategies for at-risk loans
 
 ## ⚠️ Limitations & Future Work
 ### Current Challenges
