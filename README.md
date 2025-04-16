@@ -91,14 +91,14 @@ The dataset contains approximately 100,000 loan records with 150+ features inclu
 git clone https://github.com/yourusername/loan-default-prediction.git
 cd loan-default-prediction
 ![image](https://github.com/user-attachments/assets/06fb8441-6d2f-4cd4-80ae-2288db7e9479)
-
+```
 ## 🚀 Usage
 
 1. Place your dataset in the project directory
 2. Run the Jupyter notebook:
 ```bash
 jupyter notebook Final_Assignment.ipynb
-
+```
 ## 🛠️ Key Functions
 -remove_90_more_null(): Drops columns with excessive nulls
 -skew_less_2_mean(): Handles outliers in low-skew features
