@@ -100,10 +100,10 @@ cd loan-default-prediction
 jupyter notebook Final_Assignment.ipynb
 ```
 ## 🛠️ Key Functions
--remove_90_more_null(): Drops columns with excessive nulls
--skew_less_2_mean(): Handles outliers in low-skew features
--high_c_encoding(): Frequency encoding for high-cardinality categoricals
--impute_for_float(): Advanced imputation for skewed numeric features
+- remove_90_more_null(): Drops columns with excessive nulls
+- skew_less_2_mean(): Handles outliers in low-skew features
+- high_c_encoding(): Frequency encoding for high-cardinality categoricals
+- impute_for_float(): Advanced imputation for skewed numeric features
 
 ## 💼 Business Applications
 
