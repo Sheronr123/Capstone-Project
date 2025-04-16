@@ -92,9 +92,11 @@ git clone https://github.com/yourusername/loan-default-prediction.git
 cd loan-default-prediction
 ![image](https://github.com/user-attachments/assets/06fb8441-6d2f-4cd4-80ae-2288db7e9479)
 
-### Usage
+## 🚀 Usage
+
 1. Place your dataset in the project directory
 2. Run the Jupyter notebook:
+```bash
 jupyter notebook Final_Assignment.ipynb
 
 ## 🛠️ Key Functions
