@@ -91,3 +91,44 @@ The dataset contains approximately 100,000 loan records with 150+ features inclu
 git clone https://github.com/yourusername/loan-default-prediction.git
 cd loan-default-prediction
 ![image](https://github.com/user-attachments/assets/06fb8441-6d2f-4cd4-80ae-2288db7e9479)
+
+### Usage
+1. Place your dataset in the project directory
+
+2. Run the Jupyter notebook:
+
+
+ipynb
+## 🛠️ Key Functions
+remove_90_more_null(): Drops columns with excessive nulls
+
+skew_less_2_mean(): Handles outliers in low-skew features
+
+high_c_encoding(): Frequency encoding for high-cardinality categoricals
+
+impute_for_float(): Advanced imputation for skewed numeric features
+
+## 💼 Business Applications
+The models can be used to:
+
+Automate loan approval decisions
+
+Adjust interest rates based on risk
+
+Flag high-risk applications for manual review
+
+Optimize collection strategies for at-risk loans
+
+## ⚠️ Limitations & Future Work
+### Current Challenges
+-Poor performance on extremely rare classes (<0.5% of data)
+-High false positive rates for some categories
+
+### Improvement Opportunities
+-Experiment with cost-sensitive learning
+-Test ensemble approaches (XGBoost + Logistic Regression)
+-Incorporate external economic indicators
+-Develop separate models for different loan segments
+
+
+
